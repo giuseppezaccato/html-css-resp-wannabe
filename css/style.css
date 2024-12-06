@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -122,8 +123,22 @@ img {
 .why-us li {
     list-style: none;
     margin-bottom: 2.5rem;
+
 }
 
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+
+@media screen (max-width:480px) {
+    .row {
+        display: block;
+    }
+}
