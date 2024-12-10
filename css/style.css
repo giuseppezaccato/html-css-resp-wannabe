@@ -145,6 +145,12 @@ img {
 
 @media screen and (max-width:480px) {
     .row {
+
+        /* altra strada percorribile dando anche 
+    flex-direction: column; 
+        un gap in questo stesso selettore
+    gap: 3rem */
+
         display: block;
     }
 
